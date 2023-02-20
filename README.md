@@ -1,3 +1,1 @@
-# bestpinkbitch
-
-this is my config :)
+these are my configs :)

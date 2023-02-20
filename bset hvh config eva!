@@ -1,7 +1,8 @@
 {
   "Backtrack": {
     "Enabled": true,
-    "Fake Latency Amount": 115
+    "Fake Latency Amount": 115,
+    "Time limit": 80
   },
   "Chams": {
     "Allies": {
@@ -291,7 +292,7 @@
     "Enabled": true,
     "Invert": {
       "Key": "F",
-      "Key mode": 3
+      "Key mode": 1
     },
     "Lby mode": 1,
     "Peek mode": 3
@@ -301,7 +302,7 @@
     "Mode": 1
   },
   "Force baim": {
-    "Key": "]",
+    "Key": "C",
     "Key mode": 3
   },
   "Glow": {
@@ -376,7 +377,7 @@
     "Key mode": 1
   },
   "Min damage override Key": {
-    "Key": "X",
+    "Key": "MOUSE4",
     "Key mode": 3
   },
   "Misc": {
@@ -448,7 +449,8 @@
         "Y": 725.0
       }
     },
-    "Kill message string": "Tool-Assisted, the best CFG for Medusa.uno <3 | Made with <3 by Iriel#0101 and storm#5553",
+    "Kill message": true,
+    "Kill message string": "what? is that a free cheat killing you!?",
     "Kill sound": 3,
     "Knifebot": true,
     "Knifebot mode": 1,
@@ -494,6 +496,12 @@
       "Key": "LSHIFT",
       "Key mode": 2
     },
+    "Spectator list": {
+      "Pos": {
+        "X": 1261.0,
+        "Y": 7.0
+      }
+    },
     "TOffset": 113.95,
     "TSize": 21.16,
     "accent": {
@@ -509,11 +517,12 @@
       "Key": "C",
       "Key mode": 3
     },
+    "Freestand": true,
     "Freestand key": {
       "Key": "MOUSE5",
-      "Key mode": 2
+      "Key mode": 1
     },
-    "Jitter Range": 28,
+    "Jitter Range": 20,
     "Manual backward Key": {
       "Key": "DOWN",
       "Key mode": 3
@@ -538,7 +547,7 @@
     },
     "Visualize offset": 50.58,
     "Visualize size": 25.0,
-    "Yaw add": -18,
+    "Yaw add": -12,
     "Yaw base": 2,
     "Yaw modifier": 1
   },
@@ -618,14 +627,13 @@
       "Auto scope": true,
       "Auto shot": true,
       "Auto stop": true,
-      "Between shots": true,
       "Enabled": true,
       "Fov": 255.0,
       "Hitboxes": 31,
       "Hitchance": 80,
       "Min damage": 101,
-      "Multipoint Body": 62,
-      "Multipoint Head": 72,
+      "Multipoint Body": 60,
+      "Multipoint Head": 70,
       "Silent": true
     },
     {},
@@ -774,7 +782,7 @@
   },
   "Tickbase": {
     "Doubletap": {
-      "Key": "MOUSE4",
+      "Key": "X",
       "Key mode": 3
     },
     "Hideshots": {
@@ -925,7 +933,6 @@
       "Enabled": true
     },
     "Viewmodel": {
-      "Enabled": true,
       "Fov": 15,
       "Z": -6.9751
     },
